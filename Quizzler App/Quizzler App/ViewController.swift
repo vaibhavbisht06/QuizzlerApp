@@ -23,5 +23,24 @@ class ViewController: UIViewController {
 
     @IBAction func buttonSelected(_ sender: UIButton) {
     }
+    
+    func updateUI() {
+        
+    }
+    
+    
+    func nextQuestion() {
+        
+    }
+    
+    
+    func checkAnswer() {
+        
+    }
+    
+    
+    func startOver() {
+        
+    }
 }
 
