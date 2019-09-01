@@ -18,3 +18,8 @@ class Question {
     }
     
 }
+
+
+class MySecClass{
+    let question = Question(text: "Are We Human ", correctAnswer: true)
+}
