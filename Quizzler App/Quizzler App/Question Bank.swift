@@ -9,5 +9,10 @@
 import Foundation
  
  class QuestionBank{
+    var list = [Question]()
+    
+    init(){
+        
+    }
     
  }
