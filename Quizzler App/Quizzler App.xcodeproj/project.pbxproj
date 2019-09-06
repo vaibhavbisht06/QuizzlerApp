@@ -15,6 +15,7 @@
 		570372AD2312DC4D00ADA323 /* Quizzler_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570372AC2312DC4D00ADA323 /* Quizzler_AppTests.swift */; };
 		570372B82312DC4E00ADA323 /* Quizzler_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570372B72312DC4E00ADA323 /* Quizzler_AppUITests.swift */; };
 		570372C62312E61600ADA323 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 570372C52312E61500ADA323 /* background.png */; };
+		57321AD3232210A300F259F0 /* Question Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57321AD2232210A300F259F0 /* Question Bank.swift */; };
 		57D7E0B1231C0B4E004F1590 /* Question .swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D7E0B0231C0B4E004F1590 /* Question .swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		570372B72312DC4E00ADA323 /* Quizzler_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizzler_AppUITests.swift; sourceTree = "<group>"; };
 		570372B92312DC4E00ADA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570372C52312E61500ADA323 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		57321AD2232210A300F259F0 /* Question Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question Bank.swift"; sourceTree = "<group>"; };
 		57D7E0B0231C0B4E004F1590 /* Question .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				570372A02312DC4D00ADA323 /* LaunchScreen.storyboard */,
 				570372A32312DC4D00ADA323 /* Info.plist */,
 				57D7E0B0231C0B4E004F1590 /* Question .swift */,
+				57321AD2232210A300F259F0 /* Question Bank.swift */,
 			);
 			path = "Quizzler App";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				5703729A2312DC4C00ADA323 /* ViewController.swift in Sources */,
 				57D7E0B1231C0B4E004F1590 /* Question .swift in Sources */,
+				57321AD3232210A300F259F0 /* Question Bank.swift in Sources */,
 				570372982312DC4C00ADA323 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
