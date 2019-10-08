@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let allquestion = QuestionBank()
+    var pickedAnswer : Bool = false
+    
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var progressBar: UIView!
@@ -19,10 +22,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let firstquestion = allquestion.list[0]
+        questionLabel.text = firstquestion.questionString
     }
 
     @IBAction func buttonSelected(_ sender: UIButton) {
+        if sender.tag == 1{
+            pickedAnswer = true
+        }
+        else if sender.tag == 2{
+            pickedAnswer = true
+        }
+        checkAnswer()
     }
+    
     
     func updateUI() {
         
@@ -35,6 +48,14 @@ class ViewController: UIViewController {
     
     
     func checkAnswer() {
+        let correctAnswer = allquestion.list[0].answer
+        
+        if correctAnswer == pickedAnswer {
+            print("Yeaaah We are Right")
+        }
+        else {
+            print("Better Luck Next Time")
+        }
         
     }
     
